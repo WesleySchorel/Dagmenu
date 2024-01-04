@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --c-text: rgb(0, 0, 0);
+    --c-background: rgb(255, 255, 255);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--c-background);
+}
+
+h1 {
+    font-size: 3rem;
+    color: var(--text);
+    margin: 2rem 1.5rem 1rem 1.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: var(--text);
+}
+
+p {
+    font-size: 1.5rem;
+    color: var(--text);
+}
+
+a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--text);
+}
+
+pre {
+    margin: 3rem 1.5rem 1rem 1.5rem;
+    font-size: 1.5rem;
+    color: var(--text);
+
+    max-width: 90%; 
+    height: 80px; 
+    padding: 5px; 
+    white-space: pre-wrap;
+    background: var(--c-background);
+}
+
+section {
+    background-color: var(--c-background);
+    position: absolute;
+    top: 13rem;
+    height: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 1200px) {
+    section {
+        position: static;
+    }
+}

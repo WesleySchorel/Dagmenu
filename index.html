@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/global.css" />
+</head>
+
+<body>
+    <h1>Dagmenu's</h1>
+
+    <ul>
+        <a href="dagmenus/spinazie.html">
+            <li>
+                <p>Spinazie</p>
+            </li>
+        </a>
+        <a href="dagmenus/nachoschotel.html">
+            <li>
+                <p>Nachoschotel</p>
+            </li>
+        </a>
+    </ul>
+</body>
+
+</html>
+
+
+
+<style>
+    h1 {
+        margin: 2rem 1.5rem 2rem 1.5rem;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        background-color: #efefef;
+        padding: 1rem;
+        margin: 1rem 1.5rem 1rem 1.5rem;
+        border-radius: 10px;
+    }
+
+    @media (min-width: 1200px) {
+        ul {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+        }
+
+        li {
+            width: 100%;
+        }
+    }
+</style>

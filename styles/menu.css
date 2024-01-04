@@ -1,0 +1,30 @@
+.home {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(255, 255, 255);
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    margin: 0rem 1.5rem 1rem 1.5rem;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+}
