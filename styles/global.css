@@ -41,7 +41,7 @@ a {
 
 pre {
     margin: 2rem 1.5rem 1rem 1.5rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: var(--text);
 
     max-width: 90%; 
@@ -57,7 +57,6 @@ section {
     top: 10rem;
     height: 100%;
     border-radius: 1rem 1rem 0 0;
-    margin-bottom: 2rem;
 }
 
 img {
