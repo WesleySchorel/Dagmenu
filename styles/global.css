@@ -67,7 +67,33 @@ img {
 }
 
 @media (min-width: 1200px) {
+    .info-section {
+        display: flex;
+        justify-content: center;
+    }
+
     section {
-        position: static;
+        width: 60%;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    pre {
+        margin: 0;
+        font-size: 1.2rem;
+        color: var(--text);
+    
+        max-width: 100%; 
+        height: auto; 
+        padding: 2rem 1.5rem 1rem 1.5rem;
+        white-space: pre-wrap;
+        background: var(--c-background);
+        border-radius: 1.5rem;
+
     }
 }
