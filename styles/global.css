@@ -29,7 +29,7 @@ h2 {
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: var(--text);
 }
 
@@ -40,7 +40,7 @@ a {
 }
 
 pre {
-    margin: 3rem 1.5rem 1rem 1.5rem;
+    margin: 2rem 1.5rem 1rem 1.5rem;
     font-size: 1.5rem;
     color: var(--text);
 
@@ -54,9 +54,10 @@ pre {
 section {
     background-color: var(--c-background);
     position: absolute;
-    top: 13rem;
+    top: 10rem;
     height: 100%;
     border-radius: 1rem 1rem 0 0;
+    margin-bottom: 2rem;
 }
 
 img {
